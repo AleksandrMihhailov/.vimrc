@@ -26,7 +26,8 @@ Plugin 'sjl/gundo.vim'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 
 Plugin 'tommcdo/vim-exchange'
@@ -41,6 +42,8 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'gabesoft/vim-ags'
 Plugin 'flazz/vim-colorschemes'
 "Plugin 'junegunn/goyo.vim'
+"Plugin 'ryanoasis/vim-devicons'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -56,7 +59,7 @@ Plugin 'leafgarland/typescript-vim'
 
 " vim-scripts
 Plugin 'Tabular'
-Plugin 'ctrlp.vim'
+"Plugin 'ctrlp.vim'
 Plugin 'matchit.zip'
 Plugin 'ack.vim'
 
@@ -64,7 +67,9 @@ call vundle#end()
 
 filetype plugin indent on
 " [ Prefrences ] {{{1
+au BufReadPost *.es6 set syntax=javascript
 let mapleader = " "                    " Set global mapleader to space
+set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 11
 set noswapfile
 set autoindent
 set smartindent
@@ -97,13 +102,16 @@ set wildmenu                          " Enhance command-line completion
 set wildmode=longest:full,full
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.gif,*.psd,*.o,*.obj
 set wildignore+=*/smarty/*,*/vendor/*,*/node_modules/*,*/.hg/*,*/.svn/*,*/.sass-cache/*,*/log/*,*/tmp/*,*/build/*,*/ckeditor/*,*.DS_Store
-"set encoding=utf-8
+set encoding=utf-8
 set cursorline                        " Highlight current line
 set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
 set background=dark
 colorscheme badwolf
+"colorscheme molokai
+"colorscheme mac_classic
+"colorscheme busybee
 
 " TODO: Get this working better
 "colorscheme gruvbox
@@ -230,10 +238,10 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 " Window Resizing {{{2
-nnoremap <Left> :vertical resize +1<CR>
-nnoremap <Right> :vertical resize -1<CR>
-nnoremap <Up> :resize +1<CR>
-nnoremap <Down> :resize -1<CR>
+nnoremap <S-h> :vertical resize +1<CR>
+nnoremap <S-l> :vertical resize -1<CR>
+nnoremap <S-k> :resize +1<CR>
+nnoremap <S-j> :resize -1<CR>
 " Insert Movement {{{2
 imap <C-e> <C-o>$
 imap <C-a> <C-o>0
@@ -474,8 +482,8 @@ let g:ctrlp_custom_ignore = 'bower_components\|node_modules\|DS_Store\|git'
 let g:ctrlp_match_window_bottom = 0 " Show at top of window
 let g:ctrlp_working_path_mode = 2 " Smart path mode
 let g:ctrlp_mru_files = 1 " Enable Most Recently Used files feature
-let g:ctrlp_jump_to_buffer = 2 " Jump to tab AND buffer if already open
-let g:ctrlp_split_window = 1 " <CR> = New Tab
+"let g:ctrlp_jump_to_buffer = 2 " Jump to tab AND buffer if already open
+"let g:ctrlp_split_window = 1 " <CR> = New Tab
 " MultipleCursors {{{2
 let g:multi_cursor_next_key='<C-n>'
 let g:multi_cursor_quit_key='<C-c>'
