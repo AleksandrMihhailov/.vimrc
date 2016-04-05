@@ -67,6 +67,11 @@ call vundle#end()
 
 filetype plugin indent on
 " [ Prefrences ] {{{1
+
+if has('nvim')
+  nmap <BS> <C-W>h
+endif
+
 au BufReadPost *.es6 set syntax=javascript
 let mapleader = " "                    " Set global mapleader to space
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 11
