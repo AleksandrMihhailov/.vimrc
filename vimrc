@@ -85,6 +85,7 @@ else
   let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
   let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 au BufReadPost *.es6 set syntax=javascript
 let mapleader = " "                    " Set global mapleader to space
