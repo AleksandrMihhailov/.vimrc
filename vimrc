@@ -63,6 +63,9 @@ Plugin 'Tabular'
 Plugin 'matchit.zip'
 Plugin 'ack.vim'
 
+" Task list
+Plugin 'irrationalistic/vim-tasks'
+
 call vundle#end()
 
 filetype plugin indent on
