@@ -55,6 +55,7 @@ Plugin 'evidens/vim-twig'
 Plugin 'pangloss/vim-javascript'
 Plugin 'raichoo/purescript-vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'mxw/vim-jsx'
 
 
 " vim-scripts
