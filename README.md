@@ -3,7 +3,7 @@
 
 # Config Installation
 
-    git clone http://github.com/jet4fire/vim.git ~/.vim
+    git clone http://github.com/jet4fire/.vimrc.git ~/.vim
     cd ~/.vim
     ./install.sh
 
