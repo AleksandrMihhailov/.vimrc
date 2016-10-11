@@ -41,6 +41,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'gabesoft/vim-ags'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
 "Plugin 'junegunn/goyo.vim'
 "Plugin 'ryanoasis/vim-devicons'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -55,6 +56,7 @@ Plugin 'evidens/vim-twig'
 Plugin 'pangloss/vim-javascript'
 Plugin 'raichoo/purescript-vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'lambdatoast/elm.vim'
 Plugin 'mxw/vim-jsx'
 
 
@@ -83,7 +85,7 @@ if has('nvim')
 elseif empty($TMUX)
   let &t_SI = "\<Esc>]50;CursorShape=1\x7"
   let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-  let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+  "let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 else
   let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
   let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
@@ -132,10 +134,10 @@ set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
 set background=dark
-colorscheme badwolf
+"colorscheme badwolf
 "colorscheme molokai
 "colorscheme mac_classic
-"colorscheme busybee
+colorscheme busybee
 
 " TODO: Get this working better
 "colorscheme gruvbox
