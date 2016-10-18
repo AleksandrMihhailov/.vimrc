@@ -46,6 +46,8 @@ Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
 "Plugin 'ryanoasis/vim-devicons'
 Plugin 'ctrlpvim/ctrlp.vim'
 
+Plugin 'digitaltoad/vim-pug'
+
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
