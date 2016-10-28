@@ -567,8 +567,8 @@ endif
 " JsDoc {{{2
 nmap <silent> <leader>js <Plug>(jsdoc)
 " Git Gutter {{{2
-let g:gitgutter_enabled = 0
-let g:gitgutter_highlight_lines = 1
+let g:gitgutter_enabled = 1
+let g:gitgutter_highlight_lines = 0
 nmap <leader>gt :GitGutterToggle<cr>
 " Gist {{{2
 nmap <leader>gl :Gist -l<cr>
