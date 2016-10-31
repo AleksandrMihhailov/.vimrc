@@ -138,9 +138,9 @@ set t_Co=256                          " Explicitly tell Vim that the terminal su
 " Colors and Theme {{{2
 set background=dark
 "colorscheme badwolf
-"colorscheme molokai
+colorscheme molokai
 "colorscheme mac_classic
-colorscheme busybee
+"colorscheme busybee
 
 " TODO: Get this working better
 "colorscheme gruvbox
