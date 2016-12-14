@@ -32,7 +32,6 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'tommcdo/vim-exchange'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'kana/vim-smartinput'
 Plugin 'ervandew/supertab'
 Plugin 'Lokaltog/vim-easymotion'
@@ -46,7 +45,6 @@ Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
 "Plugin 'ryanoasis/vim-devicons'
 Plugin 'ctrlpvim/ctrlp.vim'
 
-Plugin 'digitaltoad/vim-pug'
 
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -55,13 +53,19 @@ Plugin 'honza/vim-snippets'
 
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'evidens/vim-twig'
-Plugin 'pangloss/vim-javascript'
-Plugin 'neovimhaskell/haskell-vim'
 Plugin 'raichoo/purescript-vim'
-Plugin 'leafgarland/typescript-vim'
 Plugin 'lambdatoast/elm.vim'
+Plugin 'digitaltoad/vim-pug'
 Plugin 'mxw/vim-jsx'
 
+" Programming languages
+Plugin 'pangloss/vim-javascript'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'neovimhaskell/haskell-vim'
+Plugin 'rust-lang/rust.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 
 " vim-scripts
 Plugin 'Tabular'
