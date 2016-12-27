@@ -64,6 +64,8 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'neovimhaskell/haskell-vim'
 Plugin 'rust-lang/rust.vim'
+Plugin 'fatih/vim-go'
+Plugin 'racer-rust/vim-racer'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 
