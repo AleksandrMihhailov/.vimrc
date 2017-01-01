@@ -56,6 +56,7 @@ Plugin 'evidens/vim-twig'
 Plugin 'raichoo/purescript-vim'
 Plugin 'lambdatoast/elm.vim'
 Plugin 'digitaltoad/vim-pug'
+Plugin 'briancollins/vim-jst'
 Plugin 'mxw/vim-jsx'
 
 " Programming languages
