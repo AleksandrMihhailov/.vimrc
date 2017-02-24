@@ -40,11 +40,13 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'gabesoft/vim-ags'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
 "Plugin 'junegunn/goyo.vim'
 "Plugin 'ryanoasis/vim-devicons'
 Plugin 'ctrlpvim/ctrlp.vim'
 
+"colors
+Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
+Plugin 'arcticicestudio/nord-vim'
 
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -143,9 +145,10 @@ set cursorline                        " Highlight current line
 set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
-set background=dark
+"set background=light
+colorscheme nord
 "colorscheme badwolf
-colorscheme molokai
+"colorscheme molokai
 "colorscheme mac_classic
 "colorscheme busybee
 
