@@ -13,50 +13,52 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Github
-Plugin 'tpope/vim-fugitive'
+" Ruby
 Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'tpope/vim-repeat'
+
+" Github
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-surround'
+"Plugin 'tpope/vim-unimpaired'
+"Plugin 'tpope/vim-repeat'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
-Plugin 'sjl/gundo.vim'
-Plugin 'mattn/webapi-vim'
-Plugin 'mattn/gist-vim'
+"Plugin 'sjl/gundo.vim'
+"Plugin 'mattn/webapi-vim'
+"Plugin 'mattn/gist-vim'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 
-Plugin 'tommcdo/vim-exchange'
-Plugin 'terryma/vim-multiple-cursors'
+"Plugin 'tommcdo/vim-exchange'
+"Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kana/vim-smartinput'
 Plugin 'ervandew/supertab'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'AndrewRadev/splitjoin.vim'
+"Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'gabesoft/vim-ags'
-Plugin 'flazz/vim-colorschemes'
 "Plugin 'junegunn/goyo.vim'
 "Plugin 'ryanoasis/vim-devicons'
 Plugin 'ctrlpvim/ctrlp.vim'
 
 "colors
+Plugin 'flazz/vim-colorschemes'
 Plugin 'daylerees/colour-schemes', {'rtp': 'vim/'}
 Plugin 'arcticicestudio/nord-vim'
 
-Plugin 'marcweber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+"Plugin 'marcweber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
+"Plugin 'honza/vim-snippets'
 
 Plugin 'heavenshell/vim-jsdoc'
-Plugin 'evidens/vim-twig'
-Plugin 'raichoo/purescript-vim'
-Plugin 'lambdatoast/elm.vim'
+"Plugin 'evidens/vim-twig'
+"Plugin 'raichoo/purescript-vim'
+"Plugin 'lambdatoast/elm.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'briancollins/vim-jst'
 Plugin 'mxw/vim-jsx'
@@ -75,8 +77,8 @@ Plugin 'tpope/vim-rails'
 " vim-scripts
 Plugin 'Tabular'
 "Plugin 'ctrlp.vim'
-Plugin 'matchit.zip'
-Plugin 'ack.vim'
+"Plugin 'matchit.zip'
+"Plugin 'ack.vim'
 
 " Task list
 Plugin 'irrationalistic/vim-tasks'
