@@ -148,11 +148,13 @@ set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
 "set background=light
-colorscheme nord
+"colorscheme nord
 "colorscheme badwolf
 "colorscheme molokai
 "colorscheme mac_classic
 "colorscheme busybee
+set background=dark
+colorscheme gruvbox
 
 " TODO: Get this working better
 "colorscheme gruvbox
